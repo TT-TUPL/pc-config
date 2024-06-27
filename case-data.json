@@ -264,6 +264,17 @@
         "compatible_gpu_size": 446
     },
     {
+        "casename": "Fractal Design Terra",
+        "casebrand": "Fractal Design",
+        "caseprice": 179.97,
+        "casetype": "Mini ITX Desktop",
+        "casecolor": "Black / Brown",
+        "side_panel": "Mesh",
+        "external_volume": 11.4,
+        "internal_35_bays": 0,
+        "compatible_gpu_size": 322
+    }, 
+    {
         "casename": "Phanteks Enthoo Elite",
         "casebrand": "Phanteks",
         "caseprice": 1199.99,
