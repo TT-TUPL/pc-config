@@ -1,0 +1,402 @@
+[
+    {
+        "storagename": "Samsung 970 EVO Plus",
+        "storagebrand": "Samsung",
+        "storageprice": 149.99,
+        "storagecapacity": 1000,
+        "storagetype": "SSD",
+        "cache": 0,
+        "storage_form_factor": "M.2-2280",
+        "interface": "M.2 PCIe 3.0 x4"
+    },
+    {
+        "storagename": "Seagate 1200 SSD",
+        "storagebrand": "Seagate",
+        "storageprice": 319.99,
+        "storagecapacity": 800,
+        "storagetype": "SSD",
+        "cache": 0,
+        "storage_form_factor": "2.5",
+        "interface": "SAS 12.0 Gb/s"
+    },
+    {
+        "storagename": "SanDisk SSD PLUS",
+        "storagebrand": "SanDisk",
+        "storageprice": 74.99,
+        "storagecapacity": 1000,
+        "storagetype": "SSD",
+        "cache": 0,
+        "storage_form_factor": "2.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Samsung 870 EVO",
+        "storagebrand": "Samsung",
+        "storageprice": 109.99,
+        "storagecapacity": 1000,
+        "storagetype": "SSD",
+        "cache": 0,
+        "storage_form_factor": "2.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Crucial MX500",
+        "storagebrand": "Crucial",
+        "storageprice": 124.99,
+        "storagecapacity": 2000,
+        "storagetype": "SSD",
+        "cache": 0,
+        "storage_form_factor": "2.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Western Digital Blue",
+        "storagebrand": "Western Digital",
+        "storageprice": 43.78,
+        "storagecapacity": 500,
+        "storagetype": "SSD",
+        "cache": 0,
+        "storage_form_factor": "2.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Kingston SSDNow V300",
+        "storagebrand": "Kingston",
+        "storageprice": 44.99,
+        "storagecapacity": 120,
+        "storagetype": "SSD",
+        "cache": 0,
+        "storage_form_factor": "2.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Intel SSDPEDMD020T401",
+        "storagebrand": "Intel",
+        "storageprice": 1701.41,
+        "storagecapacity": 2000,
+        "storagetype": "SSD",
+        "cache": 0,
+        "storage_form_factor": "2.5",
+        "interface": "PCIe x4"
+    },
+    {
+        "storagename": "SanDisk SSD PLUS",
+        "storagebrand": "SanDisk",
+        "storageprice": 64.15,
+        "storagecapacity": 120,
+        "storagetype": "SSD",
+        "cache": 0,
+        "storage_form_factor": "2.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Transcend TS32GSSD370S",
+        "storagebrand": "Transcend",
+        "storageprice": 33.99,
+        "storagecapacity": 32,
+        "storagetype": "SSD",
+        "cache": 0,
+        "storage_form_factor": "2.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Kingston SSDNow KC400",
+        "storagebrand": "Kingston",
+        "storageprice": 99.99,
+        "storagecapacity": 1000,
+        "storagetype": "SSD",
+        "cache": 0,
+        "storage_form_factor": "2.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Kingston A400",
+        "storagebrand": "Kingston",
+        "storageprice": 59.77,
+        "storagecapacity": 240,
+        "storagetype": "SSD",
+        "cache": 0,
+        "storage_form_factor": "2.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Crucial BX500",
+        "storagebrand": "Crucial",
+        "storageprice": 59.99,
+        "storagecapacity": 240,
+        "storagetype": "SSD",
+        "cache": 0,
+        "storage_form_factor": "2.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Kingston SSDNow V200",
+        "storagebrand": "Kingston",
+        "storageprice": 64.98,
+        "storagecapacity": 128,
+        "storagetype": "SSD",
+        "cache": 0,
+        "storage_form_factor": "2.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "ADATA SU635",
+        "storagebrand": "ADATA",
+        "storageprice": 35.99,
+        "storagecapacity": 240,
+        "storagetype": "SSD",
+        "cache": 0,
+        "storage_form_factor": "2.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "MyDigitalSSD Super Boot Drive",
+        "storagebrand": "MyDigitalSSD",
+        "storageprice": 24.99,
+        "storagecapacity": 128,
+        "storagetype": "SSD",
+        "cache": 0,
+        "storage_form_factor": "M.2-2242",
+        "interface": "M.2 SATA"
+    },
+    {
+        "storagename": "AMD RADEON-R7SSD-480G",
+        "storagebrand": "AMD",
+        "storageprice": 59.99,
+        "storagecapacity": 480,
+        "storagetype": "SSD",
+        "cache": 0,
+        "storage_form_factor": "2.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Samsung 970 EVO",
+        "storagebrand": "Samsung",
+        "storageprice": 129.99,
+        "storagecapacity": 500,
+        "storagetype": "SSD",
+        "cache": 0,
+        "storage_form_factor": "M.2-2280",
+        "interface": "M.2 PCIe 3.0 x4"
+    },
+    {
+        "storagename": "GameStop 23VG-GSPL-GameStop NVMe SSD-Heatsink-2TB",
+        "storagebrand": "GameStop",
+        "storageprice": 169.99,
+        "storagecapacity": 2000,
+        "storagetype": "SSD",
+        "cache": 0,
+        "storage_form_factor": "M.2-2280",
+        "interface": "M.2 PCIe 4.0 X4"
+    },
+    {
+        "storagename": "Western Digital Blue SN550",
+        "storagebrand": "Western Digital",
+        "storageprice": 109.99,
+        "storagecapacity": 1000,
+        "storagetype": "SSD",
+        "cache": 0,
+        "storage_form_factor": "M.2-2280",
+        "interface": "M.2 PCIe 3.0 x4"
+    },
+    {
+        "storagename": "SanDisk SSD PLUS",
+        "storagebrand": "SanDisk",
+        "storageprice": 66.97,
+        "storagecapacity": 120,
+        "storagetype": "SSD",
+        "cache": 0,
+        "storage_form_factor": "2.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Seagate Barracuda HDD",
+        "storagebrand": "Seagate",
+        "storageprice": 49.99,
+        "storagecapacity": 1000,
+        "storagetype": "HDD",
+        "cache": 64,
+        "storage_form_factor": "2.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Seagate Surveillance HDD",
+        "storagebrand": "Seagate",
+        "storageprice": 72,
+        "storagecapacity": 1000,
+        "storagetype": "HDD",
+        "cache": 64,
+        "storage_form_factor": "3.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Western Digital Blue",
+        "storagebrand": "Western Digital",
+        "storageprice": 49.99,
+        "storagecapacity": 1000,
+        "storagetype": "HDD",
+        "cache": 64,
+        "storage_form_factor": "3.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Seagate IronWolf",
+        "storagebrand": "Seagate",
+        "storageprice": 114.99,
+        "storagecapacity": 4000,
+        "storagetype": "HDD",
+        "cache": 64,
+        "storage_form_factor": "3.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Seagate Surveillance HDD",
+        "storagebrand": "Seagate",
+        "storageprice": 307.37,
+        "storagecapacity": 8000,
+        "storagetype": "HDD",
+        "cache": 256,
+        "storage_form_factor": "3.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Western Digital Black",
+        "storagebrand": "Western Digital",
+        "storageprice": 139.99,
+        "storagecapacity": 2000,
+        "storagetype": "HDD",
+        "cache": 128,
+        "storage_form_factor": "3.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Toshiba X300",
+        "storagebrand": "Toshiba",
+        "storageprice": 89.99,
+        "storagecapacity": 4000,
+        "storagetype": "HDD",
+        "cache": 128,
+        "storage_form_factor": "3.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Seagate Archive HDD v2",
+        "storagebrand": "Seagate",
+        "storageprice": 175.9,
+        "storagecapacity": 5000,
+        "storagetype": "HDD",
+        "cache": 128,
+        "storage_form_factor": "3.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Seagate NAS HDD",
+        "storagebrand": "Seagate",
+        "storageprice": 109.99,
+        "storagecapacity": 1000,
+        "storagetype": "HDD",
+        "cache": 64,
+        "storage_form_factor": "3.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Seagate Surveillance HDD",
+        "storagebrand": "Seagate",
+        "storageprice": 62.99,
+        "storagecapacity": 1000,
+        "storagetype": "HDD",
+        "cache": 64,
+        "storage_form_factor": "3.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Western Digital Purple",
+        "storagebrand": "Western Digital",
+        "storageprice": 94.99,
+        "storagecapacity": 2000,
+        "storagetype": "HDD",
+        "cache": 64,
+        "storage_form_factor": "3.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Toshiba P300",
+        "storagebrand": "Toshiba",
+        "storageprice": 49.99,
+        "storagecapacity": 1000,
+        "storagetype": "HDD",
+        "cache": 64,
+        "storage_form_factor": "3.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Seagate Surveillance HDD",
+        "storagebrand": "Seagate",
+        "storageprice": 624,
+        "storagecapacity": 6000,
+        "storagetype": "HDD",
+        "cache": 128,
+        "storage_form_factor": "3.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Western Digital Red Pro",
+        "storagebrand": "Western Digital",
+        "storageprice": 139.99,
+        "storagecapacity": 3000,
+        "storagetype": "HDD",
+        "cache": 128,
+        "storage_form_factor": "3.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Seagate NAS HDD",
+        "storagebrand": "Seagate",
+        "storageprice": 199.99,
+        "storagecapacity": 8000,
+        "storagetype": "HDD",
+        "cache": 256,
+        "storage_form_factor": "3.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Toshiba X300",
+        "storagebrand": "Toshiba",
+        "storageprice": 129.99,
+        "storagecapacity": 5000,
+        "storagetype": "HDD",
+        "cache": 128,
+        "storage_form_factor": "3.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Supermicro HDD-T4000-ST4000NM00",
+        "storagebrand": "Supermicro",
+        "storageprice": 149.99,
+        "storagecapacity": 4000,
+        "storagetype": "HDD",
+        "cache": 128,
+        "storage_form_factor": "3.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Western Digital Gold",
+        "storagebrand": "Western Digital",
+        "storageprice": 249.99,
+        "storagecapacity": 10000,
+        "storagetype": "HDD",
+        "cache": 256,
+        "storage_form_factor": "3.5",
+        "interface": "SATA 6.0 Gb/s"
+    },
+    {
+        "storagename": "Seagate Archive HDD v2",
+        "storagebrand": "Seagate",
+        "storageprice": 199.99,
+        "storagecapacity": 6000,
+        "storagetype": "HDD",
+        "cache": 128,
+        "storage_form_factor": "3.5",
+        "interface": "SATA 6.0 Gb/s"
+    }
+]

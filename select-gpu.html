@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select GPU</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.js"></script>
+</head>
+<body class="select-page">
+    <header class="clearfix">
+        <div class="logo">
+            <img src="pcc.png" alt="PCC Logo" width="250" height="170">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="builder.html">PC Builder</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Select GPU</h1>
+        <div class="filter-container">
+            <h2>Filters</h2>
+            <label for="name-filter">Name:</label>
+            <input type="text "id="name-filter" placeholder="Search...">
+            <label for="brand-filter">Brand:</label>
+            <select id="brand-filter"></select>
+            <label for="price-filter">Price: <span id="price-value"></span></label>
+            <div id="price-slider"></div>
+            <label for="model-filter">Model:</label>
+            <select id="model-filter"></select>
+            <label for="memory-filter">Memory (GB):</label>
+            <select id="memory-filter"></select>
+            <label for="gpu-core-clock-filter">Core Clock: <span id="gpu-core-clock-value"></span></label>
+            <div id="gpu-core-clock-slider"></div>
+            <label for="gpu-boost-clock-filter">Boost Clock: <span id="gpu-boost-clock-value"></span></label>
+            <div id="gpu-boost-clock-slider"></div>
+            <label for="tdp-filter">TDP: <span id="tdp-value"></span></label>
+            <div id="tdp-slider"></div>
+            <label for="length-filter">Length: <span id="length-value"></span></label>
+            <div id="length-slider"></div>
+            <button id="apply-filters">Apply Filters</button>
+        </div>
+        <div class="component-list-container">
+            <ul id="gpu-list" class="component-list"></ul>
+        </div>
+    </main>
+    <footer>
+        <ul class="footer-links">
+            <li><a href="contact.html#about-us">About Us</a></li>
+            <li><a href="contact.html#faq">FAQ</a></li>
+            <li><a href="contact.html#contact-form">Contact</a></li>
+            <li><a href="contact.html#privacy-policy">Privacy Policy</a></li>
+            <li><a href="contact.html#terms-of-service">Terms of Service</a></li>
+        </ul>
+        <p>&copy; 2024 PC Config. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

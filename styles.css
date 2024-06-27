@@ -1,0 +1,438 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Andale Mono, monospace;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    overflow-x: hidden;
+    font-size: 1.5em;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #040817;
+    color: white;
+    padding: 1px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #756c6a;
+    margin-bottom: 0;
+}
+
+header .logo {
+    flex: 1;
+    text-align: center;
+}
+
+nav {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-links li {
+    margin: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 20px 40px;
+    transition: background-color 0.3s ease;
+    border: 1px solid #756c6a;
+    display: block;
+}
+
+.nav-links a:hover {
+    background-color: #444;
+    border-radius: 4px;
+}
+
+.nav-links .active {
+    background-color: #666;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin: 5px 0;
+    }
+
+    .nav-links a {
+        width: 100%;
+    }
+}
+
+main {
+    padding: 0;
+    margin-top: 0;
+}
+
+.img-container-fullscreen {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 171px);
+    overflow: hidden;
+    margin: 0 auto;
+    top: -1px;
+}
+
+.img-container-fullscreen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.zoom {
+    padding: 0px;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.03);
+    z-index: 10;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8em;
+}
+
+footer .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-links li {
+    margin: 0 15px;
+}
+
+footer .footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+footer .footer-links a:hover {
+    color: #ddd;
+}
+
+.builder-page main {
+    padding: 20px;
+    flex: 1;
+}
+
+.builder-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #040817;
+}
+
+.builder-page .component-list {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.builder-page .component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.builder-page .component label {
+    font-weight: bold;
+    flex: 1;
+}
+
+.builder-page .choose-button {
+    background-color: #040817;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-right: 20px;
+    flex: 1;
+    text-align: center;
+}
+
+.builder-page .choose-button:hover {
+    background-color: #333;
+}
+
+.builder-page .component span {
+    font-style: italic;
+    flex: 1;
+    text-align: right;
+}
+
+.builder-page .compatibility-button {
+    display: block;
+    width: 100%;
+    background-color: #040817;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.builder-page #compatibility-results {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.select-page main {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.select-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #040817;
+    width: 100%;
+    display: block;
+}
+
+.filter-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    margin-left: 40px;
+    max-width: 500px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.filter-container h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #040817;
+}
+
+.filter-container label,
+.filter-container input,
+.filter-container select {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.filter-container input[type="range"] {
+    width: 100%;
+}
+
+.filter-container button {
+    background-color: #040817;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.filter-container button:hover {
+    background-color: #333;
+}
+
+.component-list-container {
+    flex: 3;
+    padding: 20px;
+}
+
+.component-list {
+    list-style: none;
+    padding: 0;
+}
+
+.component-list li {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.component-list li:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.02);
+}
+
+.component-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.component-details span {
+    margin: 2px 0;
+}
+
+.contact-page main {
+    padding: 20px;
+    flex: 1;
+}
+
+.contact-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #040817;
+}
+
+.contact-page section {
+    margin-bottom: 40px;
+}
+
+.contact-page h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #040817;
+}
+
+.contact-page h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    color: #333;
+}
+
+.contact-page p {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.contact-page ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.contact-page li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.contact-page form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-page label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-page input,
+.contact-page textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.contact-page button {
+    background-color: #040817;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.contact-page button:hover {
+    background-color: #333;
+}
+
+
+
+.about-pc-config {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.features {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.features ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}

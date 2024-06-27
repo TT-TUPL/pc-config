@@ -1,0 +1,402 @@
+[
+    {
+        "psuname": "Corsair RM750e (2023)",
+        "psubrand": "Corsair",
+        "psuprice": 99.99,
+        "psutype": "ATX",
+        "efficiency": "Gold",
+        "wattage": 750,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "SeaSonic FOCUS PX-650",
+        "psubrand": "SeaSonic",
+        "psuprice": 129.99,
+        "psutype": "ATX",
+        "efficiency": "Platinum",
+        "wattage": 650,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Corsair RM1000e (2023)",
+        "psubrand": "Corsair",
+        "psuprice": 159.99,
+        "psutype": "ATX",
+        "efficiency": "Gold",
+        "wattage": 1000,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Corsair RM650 (2023)",
+        "psubrand": "Corsair",
+        "psuprice": 89.99,
+        "psutype": "ATX",
+        "efficiency": "Gold",
+        "wattage": 650,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "MSI MAG A650BN",
+        "psubrand": "MSI",
+        "psuprice": 59,
+        "psutype": "ATX",
+        "efficiency": "Bronze",
+        "wattage": 650,
+        "modular": "Non-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "MSI MAG A850GL PCIE5",
+        "psubrand": "MSI",
+        "psuprice": 89.99,
+        "psutype": "ATX",
+        "efficiency": "Gold",
+        "wattage": 850,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Corsair CX650M (2021)",
+        "psubrand": "Corsair",
+        "psuprice": 79.99,
+        "psutype": "ATX",
+        "efficiency": "Bronze",
+        "wattage": 650,
+        "modular": "Semi-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "MSI MAG A550BN",
+        "psubrand": "MSI",
+        "psuprice": 49,
+        "psutype": "ATX",
+        "efficiency": "Bronze",
+        "wattage": 550,
+        "modular": "Non-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Corsair SF750",
+        "psubrand": "Corsair",
+        "psuprice": 184.99,
+        "psutype": "SFX",
+        "efficiency": "Platinum",
+        "wattage": 750,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Corsair RM850",
+        "psubrand": "Corsair",
+        "psuprice": 124.99,
+        "psutype": "ATX",
+        "efficiency": "Gold",
+        "wattage": 850,
+        "modular": "Fully-Modular",
+        "psucolor": "White / Black"
+    },
+    {
+        "psuname": "Corsair RM850x (2021)",
+        "psubrand": "Corsair",
+        "psuprice": 149.99,
+        "psutype": "ATX",
+        "efficiency": "Gold",
+        "wattage": 850,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Thermaltake Smart",
+        "psubrand": "Thermaltake",
+        "psuprice": 39.06,
+        "psutype": "ATX",
+        "efficiency": "80 PLUS",
+        "wattage": 500,
+        "modular": "Non-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Cooler Master MWE Gold 850 - V2",
+        "psubrand": "Cooler Master",
+        "psuprice": 89.99,
+        "psutype": "ATX",
+        "efficiency": "Gold",
+        "wattage": 850,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Corsair RM1000x (2021)",
+        "psubrand": "Corsair",
+        "psuprice": 159.99,
+        "psutype": "ATX",
+        "efficiency": "Gold",
+        "wattage": 1000,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Asus ROG THOR 1600T Gaming",
+        "psubrand": "Asus",
+        "psuprice": 699.99,
+        "psutype": "ATX",
+        "efficiency": "Titanium",
+        "wattage": 1600,
+        "modular": "Fully-Modular",
+        "psucolor": "Silver / Black"
+    },
+    {
+        "psuname": "Thermaltake Smart",
+        "psubrand": "Thermaltake",
+        "psuprice": 40.99,
+        "psutype": "ATX",
+        "efficiency": "80 PLUS",
+        "wattage": 600,
+        "modular": "Non-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "MSI MAG A750GL PCIE5",
+        "psubrand": "MSI",
+        "psuprice": 89,
+        "psutype": "ATX",
+        "efficiency": "Gold",
+        "wattage": 750,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "MSI MAG A650GL",
+        "psubrand": "MSI",
+        "psuprice": 79.98,
+        "psutype": "ATX",
+        "efficiency": "Gold",
+        "wattage": 650,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Corsair SF850L",
+        "psubrand": "Corsair",
+        "psuprice": 144.05,
+        "psutype": "SFX",
+        "efficiency": "Gold",
+        "wattage": 850,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "SeaSonic FOCUS GX",
+        "psubrand": "SeaSonic",
+        "psuprice": 74.99,
+        "psutype": "ATX",
+        "efficiency": "Gold",
+        "wattage": 750,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Apevia Galaxy",
+        "psubrand": "Apevia",
+        "psuprice": 54.99,
+        "psutype": "ATX",
+        "efficiency": "Gold",
+        "wattage": 650,
+        "modular": "Semi-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Corsair HX1500i (2023)",
+        "psubrand": "Corsair",
+        "psuprice": 359.99,
+        "psutype": "ATX",
+        "efficiency": "Platinum",
+        "wattage": 1500,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "SeaSonic FOCUS 80 PLUS 650 Gold",
+        "psubrand": "SeaSonic",
+        "psuprice": 126.47,
+        "psutype": "ATX",
+        "efficiency": "Gold",
+        "wattage": 650,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Corsair RM750",
+        "psubrand": "Corsair",
+        "psuprice": 109.99,
+        "psutype": "ATX",
+        "efficiency": "Gold",
+        "wattage": 750,
+        "modular": "Fully-Modular",
+        "psucolor": "White / Black"
+    },
+    {
+        "psuname": "be quiet! Pure Power 12 M",
+        "psubrand": "be quiet!",
+        "psuprice": 89.9,
+        "psutype": "ATX",
+        "efficiency": "Gold",
+        "wattage": 750,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "be quiet! Pure Power 12 M",
+        "psubrand": "be quiet!",
+        "psuprice": 99.9,
+        "psutype": "ATX",
+        "efficiency": "Gold",
+        "wattage": 850,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Gigabyte UD750GM",
+        "psubrand": "Gigabyte",
+        "psuprice": 92.12,
+        "psutype": "ATX",
+        "efficiency": "Gold",
+        "wattage": 750,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Corsair RM750x (2021)",
+        "psubrand": "Corsair",
+        "psuprice": 99.99,
+        "psutype": "ATX",
+        "efficiency": "Gold",
+        "wattage": 750,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Corsair CX750M (2021)",
+        "psubrand": "Corsair",
+        "psuprice": 89.95,
+        "psutype": "ATX",
+        "efficiency": "Bronze",
+        "wattage": 750,
+        "modular": "Semi-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Thermaltake Toughpower GF A3 Snow",
+        "psubrand": "Thermaltake",
+        "psuprice": 119.99,
+        "psutype": "ATX",
+        "efficiency": "Gold",
+        "wattage": 850,
+        "modular": "Fully-Modular",
+        "psucolor": "White"
+    },
+    {
+        "psuname": "MSI A1000G PCIE5",
+        "psubrand": "MSI",
+        "psuprice": 157.99,
+        "psutype": "ATX",
+        "efficiency": "Gold",
+        "wattage": 1000,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Corsair SF1000L",
+        "psubrand": "Corsair",
+        "psuprice": 156.94,
+        "psutype": "SFX",
+        "efficiency": "Gold",
+        "wattage": 1000,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Corsair CX (2023)",
+        "psubrand": "Corsair",
+        "psuprice": 74.98,
+        "psutype": "ATX",
+        "efficiency": "Bronze",
+        "wattage": 750,
+        "modular": "Non-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Silverstone HELA",
+        "psubrand": "Silverstone",
+        "psuprice": 622.29,
+        "psutype": "ATX",
+        "efficiency": "Platinum",
+        "wattage": 2050,
+        "modular": "Fully-Modular",
+        "psucolor": "White / Black"
+    },
+    {
+        "psuname": "Corsair CX (2023)",
+        "psubrand": "Corsair",
+        "psuprice": 64.98,
+        "psutype": "ATX",
+        "efficiency": "Bronze",
+        "wattage": 650,
+        "modular": "Non-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Corsair AX1600i",
+        "psubrand": "Corsair",
+        "psuprice": 609.94,
+        "psutype": "ATX",
+        "efficiency": "Titanium",
+        "wattage": 1600,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Apevia Prestige",
+        "psubrand": "Apevia",
+        "psuprice": 51.99,
+        "psutype": "ATX",
+        "efficiency": "Gold",
+        "wattage": 600,
+        "modular": "Non-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "be quiet! Dark Power 13",
+        "psubrand": "be quiet!",
+        "psuprice": 229.9,
+        "psutype": "ATX",
+        "efficiency": "Titanium",
+        "wattage": 1000,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "Corsair CV650",
+        "psubrand": "Corsair",
+        "psuprice": 49.99,
+        "psutype": "ATX",
+        "efficiency": "Bronze",
+        "wattage": 650,
+        "modular": "Non-Modular",
+        "psucolor": "Black"
+    },
+    {
+        "psuname": "EVGA 650 B5",
+        "psubrand": "EVGA",
+        "psuprice": 74.99,
+        "psutype": "ATX",
+        "efficiency": "Bronze",
+        "wattage": 650,
+        "modular": "Fully-Modular",
+        "psucolor": "Black"
+    }
+]

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Builder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+<body class="builder-page">
+    <header class="clearfix">
+        <div class="logo">
+            <img src="pcc.png" alt="PCC Logo" width="250" height="170">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="builder.html" class="active">PC Builder</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>PC Builder</h1>
+        <div class="component-list">
+            <div class="component">
+                <label>CPU:</label>
+                <button class="choose-button" onclick="window.location.href='select-cpu.html'">Choose CPU</button>
+                <span id="selected-cpu">None</span>
+            </div>
+            <div class="component">
+                <label>Motherboard:</label>
+                <button class="choose-button" onclick="window.location.href='select-motherboard.html'">Choose Motherboard</button>
+                <span id="selected-motherboard">None</span>
+            </div>
+            <div class="component">
+                <label>GPU:</label>
+                <button class="choose-button" onclick="window.location.href='select-gpu.html'">Choose GPU</button>
+                <span id="selected-gpu">None</span>
+            </div>
+            <div class="component">
+                <label>Case:</label>
+                <button class="choose-button" onclick="window.location.href='select-case.html'">Choose Case</button>
+                <span id="selected-case">None</span>
+            </div>
+            <div class="component">
+                <label>RAM:</label>
+                <button class="choose-button" onclick="window.location.href='select-ram.html'">Choose RAM</button>
+                <span id="selected-ram">None</span>
+            </div>
+            <div class="component">
+                <label>Storage:</label>
+                <button class="choose-button" onclick="window.location.href='select-storage.html'">Choose Storage</button>
+                <span id="selected-storage">None</span>
+            </div>
+            <div class="component">
+                <label>PSU:</label>
+                <button class="choose-button" onclick="window.location.href='select-psu.html'">Choose PSU</button>
+                <span id="selected-psu">None</span>
+            </div>
+            <div class="total-price">
+            <h3><center>Total Price: $<span id="total-price">0.00</span></center></h3>
+            </div>
+        </div>
+        <button type="button" class="compatibility-button">Compatibility Check</button>
+        <div id="compatibility-results"></div>
+    </main>
+    <footer>
+        <ul class="footer-links">
+            <li><a href="contact.html#about-us">About Us</a></li>
+            <li><a href="contact.html#faq">FAQ</a></li>
+            <li><a href="contact.html#contact-form">Contact</a></li>
+            <li><a href="contact.html#privacy-policy">Privacy Policy</a></li>
+            <li><a href="contact.html#terms-of-service">Terms of Service</a></li>
+        </ul>
+        <p>&copy; 2024 PC Config. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
