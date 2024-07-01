@@ -51,6 +51,8 @@
 function updateTotalPrice(componentsData) {
     let totalPrice = 0;
 
+    const conversionRate = 1.82; 
+
     const selectedCpu = localStorage.getItem('selected-cpu');
     if (selectedCpu) {
         const cpuData = componentsData.cpu.find(cpu => cpu.cpuname === selectedCpu);
@@ -101,7 +103,8 @@ function updateTotalPrice(componentsData) {
         }
     }
 
-    document.getElementById('total-price').textContent = totalPrice.toFixed(2);
+    const totalLeva = totalPrice * conversionRate;
+    document.getElementById('total-price').textContent = `$${totalPrice.toFixed(2)} (${totalLeva.toFixed(2)} лева)`;
 }
 
 function handleComponentSelection(componentName, type) {
@@ -507,6 +510,7 @@ function setupSliders() {
 
 function displayComponentList(data, type) {
     const listElement = document.getElementById(`${type}-list`);
+    const conversionRate = 1.82; 
     const filters = {
         cpu: {
             name: document.getElementById('name-filter'),
@@ -863,11 +867,12 @@ function displayComponentList(data, type) {
         filteredData.forEach(item => {
             const li = document.createElement('li');
             if (type === 'cpu') {
+                const priceLeva = (item.cpuprice * conversionRate).toFixed(2); 
                 li.innerHTML = `
                     <div class="component-details">
                         <span><strong>Name:</strong> ${item.cpuname}</span>
                         <span><strong>Brand:</strong> ${item.cpubrand}</span>
-                        <span><strong>Price:</strong> $${item.cpuprice}</span>
+                        <span><strong>Price:</strong> $${item.cpuprice} (${priceLeva} лева)</span>
                         <span><strong>Core Count:</strong> ${item.core_count}</span>
                         <span><strong>Core Clock:</strong> ${item.core_clock} GHz</span>
                         <span><strong>Boost Clock:</strong> ${item.boost_clock} GHz</span>
@@ -878,11 +883,12 @@ function displayComponentList(data, type) {
                     </div>
                 `;
             } else if (type === 'motherboard') {
+                const priceLeva = (item.mbprice * conversionRate).toFixed(2);
                 li.innerHTML = `
                     <div class="component-details">
                         <span><strong>Name:</strong> ${item.mbname}</span>
                         <span><strong>Brand:</strong> ${item.mbbrand}</span>
-                        <span><strong>Price:</strong> $${item.mbprice}</span>
+                        <span><strong>Price:</strong> $${item.mbprice} (${priceLeva} лева)</span>
                         <span><strong>Form Factor:</strong> ${item.mbformfactor}</span>
                         <span><strong>Socket:</strong> ${item.mbsocket}</span>
                         <span><strong>Chipset:</strong> ${item.chipset}</span>
@@ -895,11 +901,12 @@ function displayComponentList(data, type) {
                     </div>
                 `;
             } else if (type === 'gpu') {
+                const priceLeva = (item.gpuprice * conversionRate).toFixed(2);
                 li.innerHTML = `
                     <div class="component-details">
                         <span><strong>Name:</strong> ${item.gpuname}</span>
                         <span><strong>Brand:</strong> ${item.brand}</span>
-                        <span><strong>Price:</strong> $${item.gpuprice}</span>
+                        <span><strong>Price:</strong> $${item.gpuprice} (${priceLeva} лева)</span>
                         <span><strong>Model:</strong> ${item.model}</span>
                         <span><strong>Memory:</strong> ${item.memory} GB</span>
                         <span><strong>Core Clock:</strong> ${item.gpucoreclock} MHz</span>
@@ -910,11 +917,12 @@ function displayComponentList(data, type) {
                 `;
             }
              else if (type === 'case') {
+                const priceLeva = (item.caseprice * conversionRate).toFixed(2);
                 li.innerHTML = `
                     <div class="component-details">
                         <span><strong>Name:</strong> ${item.casename}</span>
                         <span><strong>Brand:</strong> ${item.casebrand}</span>
-                        <span><strong>Price:</strong> $${item.caseprice}</span>
+                        <span><strong>Price:</strong> $${item.caseprice} (${priceLeva} лева)</span>
                         <span><strong>Type:</strong> ${item.casetype}</span>
                         <span><strong>Color:</strong> ${item.casecolor}</span>
                         <span><strong>Side Panel:</strong> ${item.side_panel}</span>
@@ -925,11 +933,12 @@ function displayComponentList(data, type) {
                 `;
             }
              else if (type === 'ram') {
+                const priceLeva = (item.ramprice * conversionRate).toFixed(2);
                 li.innerHTML = `
                     <div class="component-details">
                         <span><strong>Name:</strong> ${item.ramname}</span>
                         <span><strong>Brand:</strong> ${item.rambrand}</span>
-                        <span><strong>Price:</strong> $${item.ramprice}</span>
+                        <span><strong>Price:</strong> $${item.ramprice} (${priceLeva} лева)</span>
                         <span><strong>Speed:</strong> ${item.speed} MHz</span>
                         <span><strong>Modules:</strong> ${item.modules}</span>
                         <span><strong>Capacity:</strong> ${item.capacity} GB</span>
@@ -940,11 +949,12 @@ function displayComponentList(data, type) {
                 `;
             }
              else if (type === 'storage') {
+                const priceLeva = (item.storageprice * conversionRate).toFixed(2);
                 li.innerHTML = `
                     <div class="component-details">
                         <span><strong>Name:</strong> ${item.storagename}</span>
                         <span><strong>Brand:</strong> ${item.storagebrand}</span>
-                        <span><strong>Price:</strong> $${item.storageprice}</span>
+                        <span><strong>Price:</strong> $${item.storageprice} (${priceLeva} лева)</span>
                         <span><strong>Capacity:</strong> ${item.storagecapacity} GB</span>
                         <span><strong>Type:</strong> ${item.storagetype}</span>
                         <span><strong>Cache:</strong> ${item.cache} MB</span>
@@ -954,11 +964,12 @@ function displayComponentList(data, type) {
                 `;
             }
              else if (type === 'psu') {
+                const priceLeva = (item.psuprice * conversionRate).toFixed(2);
                 li.innerHTML = `
                     <div class="component-details">
                         <span><strong>Name:</strong> ${item.psuname}</span>
                         <span><strong>Brand:</strong> ${item.psubrand}</span>
-                        <span><strong>Price:</strong> $${item.psuprice}</span>
+                        <span><strong>Price:</strong> $${item.psuprice} (${priceLeva} лева)</span>
                         <span><strong>Type:</strong> ${item.psutype}</span>
                         <span><strong>Efficiency:</strong> ${item.efficiency}</span>
                         <span><strong>Wattage:</strong> ${item.wattage} W</span>
